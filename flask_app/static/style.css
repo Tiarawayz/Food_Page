@@ -1,0 +1,33 @@
+*{
+  margin: 0%;
+}
+
+.container{
+  background-image: url("./10.jpg");
+  height: 100vh;
+  max-width: 100% !important;
+  width: 100% !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.side2{
+  width: 30% !important;
+  position: absolute !important;
+  top: 120px !important;
+  border: 2px solid black !important;
+  border-radius: 10px !important;
+  left: 65%;
+  text-align: center;
+}
+
+.side{
+  width: 30% !important;
+  position: absolute !important;
+  top: 120px !important;
+  border: 2px solid black !important;
+  border-radius: 10px !important;
+  right: 60%;
+  text-align: center;
+}
